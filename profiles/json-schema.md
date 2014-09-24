@@ -11,7 +11,7 @@ The JSON Schema profile adds the following semantics to a link.
 
 The link MUST contain a schema element conforming to the [JSON Schema spec](http://json-schema.org/)
 
-{% highlight json %}
+{% highlight javascript %}
 {
   "_links": {
     "profile": {
@@ -54,7 +54,7 @@ The link MUST contain a schema element conforming to the [JSON Schema spec](http
 
 JSON Schema supports referencing other schema which means that the resource does not need to contain the entire schema.
 
-{% highlight json %}
+{% highlight javascript %}
 {
   "_links": {
     "profile": {

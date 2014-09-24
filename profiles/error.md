@@ -9,7 +9,7 @@ permalink: /error/
 
 An error resource MUST contain an _errors collection. A error item MUST have a title and a message.
 
-{% highlight json %}
+{% highlight javascript %}
 {
   "_links" : {
     "profile": "http://profiles.hyperfriendly.net/error"

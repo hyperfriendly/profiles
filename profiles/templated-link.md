@@ -9,7 +9,7 @@ permalink: /templated-link/
 
 A templated link href MUST contain a templated URI conforming to the [spec](http://tools.ietf.org/html/rfc6570)
 
-{% highlight json %}
+{% highlight javascript %}
 {
   "_links" : {
     "linkProfiles": [ "http://profiles.hyperfriendly.net/templated-link" ],

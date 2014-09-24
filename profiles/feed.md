@@ -11,7 +11,7 @@ A feed is a special [collection](https://github.com/hyperfriendly/spec/wiki/Reso
 
 The envelope MUST contain a messageType, sequenceNumber and a body object. It MAY contain a headers object with metadata.
 
-{% highlight json %}
+{% highlight javascript %}
 {
   "_links" : {
     "profile": "http://profiles.hyperfriendly.net/feed"

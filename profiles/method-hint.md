@@ -11,7 +11,7 @@ The method hint profile adds semantics to a link in the following way.
 
 The link MUST contain a *method* element that describes which HTTP method should be used to interact with the resource.
 
-{% highlight json %}
+{% highlight javascript %}
 {
   "_links": {
     "profile": {

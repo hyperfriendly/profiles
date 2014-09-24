@@ -9,7 +9,7 @@ permalink: /collection/
 
 A collection resource MUST contain an _items array. The collection resource MAY contain a next link and MAY contain a prev link.
 
-{% highlight json %}
+{% highlight javascript %}
 {
   "_links" : {
     "profile": {
