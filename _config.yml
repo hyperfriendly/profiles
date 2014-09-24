@@ -1,0 +1,12 @@
+# Site settings
+title: hyperfriendly+json profiles
+email: mail@hyperfriendly.net
+description: >
+  Profile directory for hyperfriendly+json profiles.
+baseurl: ""
+url: "http://profiles.hyperfriendly.net"
+github_username:  hyperfriendly
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
