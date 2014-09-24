@@ -9,7 +9,7 @@ github_username:  hyperfriendly
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
 
-gems:
-- rouge
+#gems:
+#- rouge
