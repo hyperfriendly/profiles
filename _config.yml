@@ -10,3 +10,6 @@ github_username:  hyperfriendly
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+gems:
+- rouge
