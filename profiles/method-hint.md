@@ -14,11 +14,9 @@ The link MUST contain a *method* element that describes which HTTP method should
 {% highlight javascript %}
 {
   "_links": {
-    "profile": {
-      "href": "http://profiles.hyperfriendly.net/method-hint"
-    },
     "add_user": {
       "href": "/users",
+      "linkProfiles": [ "http://profiles.hyperfriendly.net/method-hint" ]
       "method": "POST"
     }
   }
