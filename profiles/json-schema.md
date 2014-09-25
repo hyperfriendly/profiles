@@ -14,12 +14,9 @@ The link MUST contain a schema element conforming to the [JSON Schema spec](http
 {% highlight javascript %}
 {
   "_links": {
-    "profile": {
-      "href": "http://profiles.hyperfriendly.net/json-schema"
-    },
     "create": {
       "href": "/users",
-      "method": "POST",
+      "linkProfiles": [ "http://profiles.hyperfriendly.net/json-schema" ]
       "schema": {
         "title": "Create user",
         "type": "object",
